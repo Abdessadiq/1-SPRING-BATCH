@@ -24,8 +24,8 @@ import org.springframework.core.io.Resource;
 public class SpringBatchConfig {
    @Autowired
    private JobBuilderFactory jobBuilderFactory;
-   @Autowired
-   private StepBuilderFactory stepBuilderFactory;
+    @Autowired
+    private StepBuilderFactory stepBuilderFactory;
    @Autowired
    private ItemReader<BankTransaction> bankTransactionItemReader;
    @Autowired
